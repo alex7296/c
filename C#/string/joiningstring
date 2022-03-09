@@ -1,0 +1,17 @@
+using System ;
+namespace StringApplication
+{
+class StringProg
+{
+static void Main(string[] args)
+{
+string[] starray = new string[]{"Down the way nights are dark",
+"And the sun shines daily on the m ountain top",
+"I took a trip on a sailing ship",
+"And when I reached Jam aica",
+"I m ade a stop"};
+string str = String.Join("\n", starray);
+Console.WriteLine(str);
+}
+}
+}
