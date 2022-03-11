@@ -1,0 +1,22 @@
+
+// Corrections are commented.
+//
+#include <iostream>
+#include <iomanip> // Manipulator setw()
+#include <string> // Class string
+using namespace std;
+int main()
+{
+string word; // To read a word.
+// char ch; is not needed.
+// cout << ...instead of cin >> .
+cout << "Let's go! Press the return key: ";
+cin.get(); // Input newline character
+cout << " Enter a word " // "
+"containing three characters at the most: ";// "
+cin >> setw(3) >> word; // setw(3) instead of
+// setprecision(3)
+cout << "Your input: " // <<
+<< word << endl; // instead of >> ch
+return 0;
+}
