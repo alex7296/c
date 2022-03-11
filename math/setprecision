@@ -1,0 +1,17 @@
+#include <iostream>
+#include <iomanip> // For setw() and setprecision()
+using namespace std;
+int main()
+{
+double x1 = 0.123456, x2 = 23.987, x3 = -123.456;
+// a)
+cout << left << setw(15) << x1 << endl;
+// b)
+cout << fixed << setprecision(2) << right << setw(12)
+<< x2 << endl;
+// c)
+cout << scientific << setprecision(4) << x3 << endl;
+// Output: -1.2346e+002
+// A field width of 12 or more would be convenient!
+return 0;
+}
