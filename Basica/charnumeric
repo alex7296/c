@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+#include <cctype>
+int main() {
+char caracter1 = 'A', caracter2 = '1', caracter3 = '&';
+cout << "Carácter 1 (" << caracter1 << ").‐" << endl;
+cout << "Alfanumérico? " << isalnum(caracter1) << endl;
+cout << "Alfabético? " << isalpha(caracter1) << endl;
+cout << "Dígito? " << isdigit(caracter1) << endl;
+cout << "Mayúscula? " << isupper(caracter1) << endl;
+caracter1 = tolower(caracter1);
+cout << "En minúscula: " << caracter1 << endl;
+cout << "Carácter 2 (" << caracter2 << ").‐" << endl;
+cout << "Alfabético? " << isalpha(caracter2) << endl;
+cout << "Dígito? " << isdigit(caracter2) << endl;
+cout << "Carácter 3 (" << caracter3 << ").‐" << endl;
+cout << "Alfanumérico? " << isalnum(caracter3) << endl;
+cout << "Alfabético? " << isalpha(caracter3) << endl;
+cout << "Dígito? " << isdigit(caracter3) << endl;
+return 0;
+}
