@@ -1,0 +1,16 @@
+#include <iostream>
+int main()
+{
+using namespace std;
+
+int intvalue;
+float realvalue;
+
+cout <<"enter an integer number followed by return.";
+cin >> intvalue;
+cout << "enter a real number followed by return-";
+cin >> realvalue;
+cout<< "you entered” << intvalue  << “and"
+       << realvalue;
+return 0;
+}
