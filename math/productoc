@@ -1,0 +1,13 @@
+/* Calculate the product of three integers */
+2 #include <stdio.h>
+3
+4 int main( void )
+5 {
+6 int x, y, z, result; /* declare variables */
+7
+8 printf( "Enter three integers: " ); /* prompt */
+9 scanf( "%d%d%d", &x, &y, &z ); /* read three integers */
+10 result = x * y * z; /* multiply values */
+11 printf( "The product is %d\n", result ); /* display result */
+12 return 0;
+13 } /* end function main */
