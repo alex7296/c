@@ -1,0 +1,10 @@
+using System;
+
+public class Bienvenido1
+ {
+ // El método Main comienza la ejecución de la aplicación de C#
+ public static void Main( string[] args )
+ {
+ Console.WriteLine( "¡Bienvenido a la programación en C#!" );
+ } // fin del método Main
+ } //
