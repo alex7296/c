@@ -1,0 +1,12 @@
+// Impresión de una línea de texto mediante varias instrucciones.
+using System;
+
+public class Bienvenido2
+ {
+ // El método Main comienza la ejecución de la aplicación de C#
+ public static void Main( string[] args )
+ {
+ Console.Write( "¡Bienvenido a " );
+ Console.WriteLine( "la programación en C#!" );
+ } // fin del método Main
+ } // fin de la clase Bienvenido2
