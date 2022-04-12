@@ -1,0 +1,27 @@
+// Muestra la suma de dos números que se introducen desde el teclado.
+using System;
+
+public class Suma
+ {
+ // El método Main comienza la ejecución de la aplicación de C#
+ public static void Main( string[] args )
+ {
+ int numero1; // declara el primer número a sumar
+ int numero2; // declara el segundo número a sumar
+ int suma; // declara la suma de numero1 y numero2
+
+ Console.Write( "Escriba el primer entero: " ); 
+ // mensaje para el usuario
+ // lee el primer número del usuario
+ numero1 = Convert.ToInt32( Console.ReadLine() );
+
+ Console.Write( "Escriba el segundo entero: " ); // mensaje para el usuario
+ // lee el segundo número del usuario
+numero2 = Convert.ToInt32( Console.ReadLine() );
+
+ suma = numero1 + numero2; // suma los números
+
+ Console.WriteLine( "La suma es {0}", suma ); // muestra la suma
+ } // fin del método Main
+ } // fin de la clase Suma
+
