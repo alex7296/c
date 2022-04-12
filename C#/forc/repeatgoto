@@ -1,0 +1,15 @@
+using System;
+public class Tester
+{
+public static int Main( )
+{
+int i = 0;
+repeat: // the label
+Console.WriteLine("i: {0}",i);
+i++;
+if (i < 10)
+goto repeat; // the dastardly deed
+return 0;
+}
+}
+
