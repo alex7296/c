@@ -1,0 +1,17 @@
+using System;
+
+ public class PruebaDoWhile
+ {
+ public static void Main( string[] args )
+ {
+ int contador = 1; // inicializa contador
+
+ do
+ {
+ Console.Write( "{0} ", contador );
+ contador++;
+ } while ( contador <= 10 ); // fin de do...while
+
+ Console.WriteLine(); // imprime en pantalla una nueva línea
+ } // fin de Main
+ } // fin de la clase PruebaDoWhile
