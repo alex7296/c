@@ -1,0 +1,23 @@
+using System;
+
+ public class EnterosAleatorios
+ {
+ public static void Main( string[] args )
+ {
+ Random numerosAleatorios = new Random(); // generador de números aleatorios
+ int cara; // almacena cada entero aleatorio que se genera
+
+ // itera 20 veces
+ for ( int contador = 1; contador <= 20; contador++ )
+ {
+ // selecciona un entero aleatorio del 1 al 6
+ cara = numerosAleatorios.Next( 1, 7 );
+
+ Console.Write( "{0} ", cara ); // muestra el valor generado
+
+ // si el contador es divisible entre 5, inicia una nueva línea de salida
+ if ( contador % 5 == 0 )
+ Console.WriteLine();
+ } // fin de for
+ } // fin de Main
+ } // fin de la clase EnterosAleatorios
